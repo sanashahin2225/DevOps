@@ -38,12 +38,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://54.196.81.224:8081/repository/First_Devops-REL/</url>
+            <url>http://34.235.131.29:8081/repository/First_Devops-REL/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.196.81.224:8081/repository/First_Devops-SNAP/</url>
+            <url>http://34.235.131.29:8081/repository/First_Devops-SNAP/</url>
         </snapshotRepository>
 </distributionManagement>
 </project>
