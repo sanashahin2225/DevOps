@@ -36,7 +36,7 @@
   </build>
   <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>ossrh</id>
             <name>Internal Releases</name>
             <url>http://34.235.131.29:8081/repository/First_Devops-REL/</url>
         </repository>
