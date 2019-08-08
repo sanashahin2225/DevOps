@@ -39,18 +39,18 @@
      </plugin>
     </plugins>
     <plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <configuration>
-        <attachClasses>true</attachClasses>
-        <webXml>target/web.xml</webXml>
-        <webResources>
-            <resource>
+       <artifactId>maven-war-plugin</artifactId>
+       <configuration>
+          <attachClasses>true</attachClasses>
+          <webXml>target/web.xml</webXml>
+          <webResources>
+             <resource>
                 <directory>src/main/webapp</directory>
                 <filtering>true</filtering>
-            </resource>
-        </webResources>
-    </configuration>
-  </plugin>
+             </resource>
+          </webResources>
+      </configuration>
+   </plugin>
   </build>
   <distributionManagement>
         <repository>
