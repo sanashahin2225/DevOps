@@ -41,6 +41,8 @@
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
              <failOnMissingWebXml>false</failOnMissingWebXml>
+             <username>USERNAME</username>
+             <password>PASSWORD</password>
          </configuration>
       </plugin>
     </plugins>
