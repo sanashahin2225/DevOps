@@ -41,7 +41,7 @@
             <url>http://34.235.131.29:8081/repository/First_Devops-REL/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>ossrh</id>
             <name>Internal Snapshot Releases</name>
             <url>http://34.235.131.29:8081/repository/First_Devops-SNAP/</url>
         </snapshotRepository>
