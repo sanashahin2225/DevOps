@@ -40,14 +40,8 @@
       <plugin>
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.mycompany.app.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
+             <failOnMissingWebXml>false</failOnMissingWebXml>
+         </configuration>
       </plugin>
     </plugins>
   </build>
