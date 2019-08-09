@@ -56,7 +56,7 @@
         <snapshotRepository>
             <id>ossrh</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://34.235.131.29:8081/repository/First_Devops-SNAP/</url>
+            <url>http://18.234.213.89:8081/repository/First_Devops-SNAP/</url>
         </snapshotRepository>
 </distributionManagement>
 </project>
