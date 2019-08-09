@@ -40,10 +40,13 @@
       <plugin>
          <artifactId>maven-war-plugin</artifactId>
          <configuration>
-             <failOnMissingWebXml>false</failOnMissingWebXml>
-             <username>sanashahin</username>
-             <password>SeemaNasim@1906</password>
+           <failOnMissingWebXml>false</failOnMissingWebXml>
          </configuration>
+      </plugin>
+      <plugin>
+         <groupId>org.wildfly.plugins</groupId>
+         <artifactId>wildfly-maven-plugin</artifactId>
+         <version>10.0.0.Final</version>
       </plugin>
     </plugins>
   </build>
